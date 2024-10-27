@@ -1,0 +1,16 @@
+/* font ----------------- */
+
+@font-face {
+    font-family:'f1-wide';
+    src: url(Formula1-Wide_web_0.ttf) format('truetype');
+}
+
+@font-face {
+    font-family:'f1-bold';
+    src: url(Formula1-Bold_web_0.ttf) format('truetype');
+}
+
+@font-face {
+    font-family:'f1-regular';
+    src: url(Formula1-Regular_web_0.ttf) format('truetype');
+}

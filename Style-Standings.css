@@ -1,0 +1,169 @@
+header
+{
+display: flex;
+justify-content: space-between;
+margin: 50px 70px;
+align-items: center;
+background-color: black;
+border-radius: 20px;
+width: 90%;
+font-family: 'f1-bold';
+
+}
+
+body 
+{
+    /* background-color:rgba(5, 176, 224, 0.469); */
+background-color: #042558;
+margin: 0;
+padding: 0;
+
+}
+
+.logo
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    column-gap: 20px;
+}
+
+.logo img
+{
+    width: auto;
+    height: 70px;
+}
+
+.logo h1
+{
+    color: #ff1810;
+    font-size: 40px;
+}
+
+.table
+{
+    border: 2px ;
+border-radius: 20px;
+width: 94%;
+margin: 0 auto;
+overflow: hidden;
+
+}
+
+table
+{
+border-collapse: collapse;
+width: 100%;
+
+}
+
+
+
+ tr {
+ text-align: center;
+ font-family: 'f1-regular';
+
+}
+
+tr:nth-child(even) {background-color: rgb(235, 231, 231);}
+tr:nth-child(odd) {background-color: rgb(255, 255, 255);}
+
+
+ th
+{
+background-color: #3bb6e2f3;
+padding: 40px;
+font-size: 25px;
+border-bottom: 5px solid #ff1810;
+position: sticky;
+font-family: 'f1-bold';
+
+} 
+
+td
+{
+padding: 20px;
+}  
+
+main
+{
+    display: flex;
+    justify-content: center;
+}
+
+.standings {
+    width: 75%;
+background-color: white;
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 0 0 8px;
+    background-color: #507ca9;
+:
+}
+
+.standings h1{
+    font-family: 'f1-wide';
+    margin-bottom: 70px;
+    color: #ff1810;
+    font-weight: 900;
+    font-size: 50px;
+    
+}
+
+
+/* ---------------------- */
+
+.container{
+    /* position: relative; */
+    /* width: 95%; */
+    margin: 0 auto;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom,#9Ebaf3,#353a5f);
+    box-shadow: 0 0 16px black;
+
+}
+.end1 {
+    background-color:#ff1810;
+    border: 1px solid #ff1810;
+    border-radius: 30px;
+    margin: 30px auto;
+}
+.filter_buttons{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 19px;
+    font-weight: 500;
+    background: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+    font-family: 'f1-bold';
+
+}
+button.active {
+    background: #ff1810;
+    color: #fff
+}
+.filterable_cards{
+    display: flex;
+    margin-top: 25px;
+    flex-wrap: wrap;
+}
+.card {
+    width: 100%;
+}
+.card.hide {
+    display: none;
+}
+

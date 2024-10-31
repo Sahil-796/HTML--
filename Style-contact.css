@@ -1,39 +1,108 @@
-body {
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    height: 100vh; 
-}
+    align-items: flex-start;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header
+  {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 70px;
+  align-items: center;
+  background-color: black;
+  border-radius: 20px;
+  width: 90%;
+  font-family: 'f1-bold';
+  padding: 17px;
+  }
 
-
-
-main {
+  .logo
+{
     display: flex;
-    justify-content: flex-end; 
-}
-
-.box {
-    width: 75%; 
-    height: 500px;
-    background-color: #f0f0f0; 
-    border: 1px solid #ccc; 
-    border-radius: 70px 0 0 30px; 
-    display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
+    margin-left: 20px;
+    column-gap: 20px;
 }
 
-.left{
-    width: 300px;
-    height: 350px;
-    background-color: black;
-   margin-left: -150px;
+.logo img
+{
+    width: auto;
+    height: 70px;
 }
 
-.right{
-    width: 300px;
-    height: 350px;
-    background-color: black;
-margin-left: 300px;
+.logo h1
+{
+    color: #ff1810;
+    font-size: 40px;
+    font-family: 'f1-bold';
+
 }
+  
+  .big-box {
+    position: relative;
+    width: 1000px;      
+    height: 70%;
+    background-color: rgba(24, 217, 92);
+    border-radius: 60px 0 0 20px;
+    margin-left: auto;  
+    margin-right: 0px;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+  }
+
+
+  
+  .box-left {
+    position: absolute;
+    width: 350px;
+    height: 70%;
+    border-radius: 20px;
+    top: 70px;
+    left: -175px;   
+    background-color: rgba(28, 46, 246, 0.4); 
+    backdrop-filter: blur(80px);
+    display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center;
+  padding: 30px;
+  }
+
+  .box-left p{
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'f1-bold';
+
+  }
+
+  
+  .box-right {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(5, 24, 243, 0.4); 
+    backdrop-filter: blur(10px);
+  }
+
+
+  .box-right-bottom {
+    position: absolute;
+    overflow: hidden;
+    width: 500px;
+    height: 70%;
+    border-radius: 20px;
+    top: 70px;      
+    left: 350px;
+    background-color: rgb(87, 182, 249); 
+  }
+  

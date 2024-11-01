@@ -12,6 +12,7 @@
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
+    background-color: azure;
   }
   
   header
@@ -54,11 +55,11 @@
     position: relative;
     width: 1000px;      
     height: 70%;
-    background-color: rgba(24, 217, 92);
+    background-color: rgb(58, 149, 252);
     border-radius: 60px 0 0 20px;
     margin-left: auto;  
     margin-right: 0px;
-    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
   }
 
 
@@ -73,10 +74,13 @@
     background-color: rgba(28, 46, 246, 0.4); 
     backdrop-filter: blur(80px);
     display: flex;
-  justify-content: center; /* Horizontal centering */
-  align-items: center;
-  padding: 30px;
+    justify-content: center; /* Horizontal centering */
+    align-items: center;
+    padding: 30px;
+    box-shadow: 0px 0px 8px rgb(0, 0, 0);
+
   }
+
 
   .box-left p{
     font-size: 20px;
@@ -90,19 +94,77 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(5, 24, 243, 0.4); 
-    backdrop-filter: blur(10px);
+    background-color: rgba(120, 125, 184, 0.4); 
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    border-radius: 20px;
   }
-
 
   .box-right-bottom {
     position: absolute;
-    overflow: hidden;
+    /* overflow: hidden; */
     width: 500px;
     height: 70%;
     border-radius: 20px;
     top: 70px;      
     left: 350px;
-    background-color: rgb(87, 182, 249); 
+    background: url(Images/ape.png); 
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 8px rgb(0, 0, 0);
+
   }
+
+  form{
+    margin-top: 15px;
+
+  }
+  
+  label {
+    font-family: 'f1-bold';
+    margin-left: 10px;
+    color: rgb(138, 222, 222);
+  }
+
+
+
+#submit{
+width: 200px;
+border: 0px solid;
+border-radius: 50px;
+text-align: center;
+padding: 10px;
+font-family: 'f1-bold';
+}
+
+#name, #email{
+  font-family: 'f1-regular';
+    border: 0px solid;
+    border-radius: 50px;
+    height: 40px;
+    width: 100%;
+    padding-left: 20px;
+    margin-top: 10px;
+
+}
+
+
+  input:focus, textarea:focus {
+background-color: rgb(234, 222, 222);
+color: rgb(219, 10, 10);
+  }
+
+
+  textarea{
+    border: 0px solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+
+  }
+
+
+
   

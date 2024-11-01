@@ -1,7 +1,7 @@
 <html>
 <head>
  
-  <title>contact </title>
+  <title>contact</title>
   <link rel="stylesheet" href="Style-contact.css">
   <link rel="stylesheet" href="font.css">
 
@@ -18,7 +18,24 @@
 
   <div class="big-box">
        <div class="box-left"><p>We love hearing from fellow F1 enthusiasts! Whether you have a question, a story to share, or want to partner with us... Jusrt fill out this form.</p></div>
-    <div class="box-right-bottom"><div class="box-right"></div></div>
+    <div class="box-right-bottom">
+      <div class="box-right">
+    
+    <form action="/submit_form"> 
+      <label for="name">Name:</label><br>
+      <input placeholder="Lewis"  type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input placeholder="ferrari@gmail.com" type="email" id="email" name="email" required><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea placeholder="Enter Your message"  id="message" name="message" rows="3" cols="39" required></textarea><br><br>
+
+      <input id="submit" type="submit" value="Submit">
+    </form>
+  
   </div>
+  </div>
+
 </body>
 </html>
